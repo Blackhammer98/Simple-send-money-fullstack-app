@@ -8,7 +8,7 @@ export const Users=()=>{
     const [filter , setFilter] =  useState("")
     
     useEffect(()=>{
-        axios.get("http://localhost:3000/api/v1/users/finduser?filter=" + filter)
+        axios.get("http://localhost:3000/api/v1/user/finduser?filter=" + filter)
               .then(response => {
                 setUsers(response.data.user)
               })

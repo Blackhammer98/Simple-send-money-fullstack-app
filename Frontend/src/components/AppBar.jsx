@@ -1,7 +1,7 @@
 export function AppBar(){
     return <div className="flex justify-between h-14 shadow">
   <div className="flex flex-col justify-center text-2xl font-semibold ml-4 ">
-   Paisa Bhejo
+   PaisaBhejo
   </div>
   <div className="flex">
      <div className="flex flex-col justify-center font-medium text-lg h-full mr-4">
